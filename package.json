@@ -1,13 +1,14 @@
 {
-  "name": "my-portfolio",
+  "name": "nmy-portfolio",
   "version": "0.2.6",
-  "description": "Portfolio",
+  "description": "Portfolio java",
   "engines": {
     "node": "6.11.1"
   },
   "main": "index.html",
   "scripts": {
-    "start": "node index.html",
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "dependencies": {
     "ejs": "2.5.6",
@@ -19,7 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harshneu/personalwebsite"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "license": "MIT"
 }
