@@ -1,7 +1,7 @@
 {
-  "name": "my-portfolio",
+  "name": "nmy-portfolio",
   "version": "0.2.6",
-  "description": "Portfolio",
+  "description": "Portfolio java",
   "engines": {
     "node": "6.11.1"
   },
@@ -17,9 +17,10 @@
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/harshneu/personalwebsite"
-  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "license": "MIT"
 }
