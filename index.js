@@ -3,12 +3,13 @@ var app = express();
 
 app.set('port', (process.env.PORT || 3000));
 
+app.use(express.static(__dirname + '/public'));
 
 // views is directory for all template files
 app.set('view engine', 'html');
 
 app.get('/', function(request, response) {
-  response.redirect('index');
+  response.redirect('pages/index');
 });
 
 app.listen(app.get('port'), function() {
