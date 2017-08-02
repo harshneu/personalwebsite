@@ -1,11 +1,11 @@
 {
-  "name": "node-js-getting-started",
+  "name": "nmy-portfolio",
   "version": "0.2.6",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Portfolio java",
   "engines": {
     "node": "6.11.1"
   },
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js"
