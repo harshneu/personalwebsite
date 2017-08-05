@@ -6,5 +6,8 @@
     "node": "6.11.1"
   },
   "main": "index.html",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.2.0"
+  }
 }

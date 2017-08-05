@@ -3,24 +3,22 @@
  */
 
 (function(){
-    var theater = theaterJS();
+    var roller = theaterJS();
 
-    theater
-        .addActor('role', {speed: 0.6, accuracy: 0.8})
-        .addScene('role:DATA', 700)
-        .addScene('role: WEB', 400)
-        .addScene('role: SOFTWARE', 400)
-        .addScene('role:ANALYTICS')
-        .addScene('role:AI', 600)
-        .addScene('role:NLP', 500)
-        .addScene(theater.replay.bind(theater));
-
+    roller
+        .addActor('role', {speed: 1.0, accuracy: 0.9})
+        .addScene('role: Web Development')
+        .addScene('role: Software Development')
+        .addScene('role:Data Analytics')
+        .addScene('role:Data Visualization')
+        .addScene('role:Artificial Intelligence')
+        .addScene('role:Big Data')
+        .addScene(roller.replay.bind(roller));
     window.sr = ScrollReveal({reset: true});
     sr.reveal('#intro', {duration: 500});
     sr.reveal('#education', {duration: 500});
     sr.reveal('#experience', {duration: 1000});
     sr.reveal('#projects', {duration: 500});
-    //sr.reveal('#interests', {duration: 500});
     sr.reveal('#image-thumb-1', {duration: 100});
     sr.reveal('#image-thumb-2', {duration: 300});
     sr.reveal('#image-thumb-3', {duration: 500});
@@ -39,17 +37,3 @@ $('#offCanvasLeft').click(function(){
 });
 $('a').smoothScroll();
 
-//function initMap() {
-//    var mapDiv = document.getElementById('map');
-//    var map = new google.maps.Map(mapDiv, {
-//        center: {lat: 44.540, lng: -78.546},
-//        disableDefaultUI: false,
-//        draggable: false,
-//        streetViewControl: false,
-//        scaleControl: false,
-//        zoomControl: false,
-//        scrollwheel: false,
-//        MapTypeId: 'OCEANIC',
-//        mapTypeControl: false,
-//        zoom: 1});
-//}

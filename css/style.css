@@ -7,6 +7,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web", san-serif;
   font-weight: 300; }
 
+.about-img {
+}
+
 body {
   overflow-x: hidden; }
 
@@ -33,7 +36,8 @@ body {
 
 #main-container {
   padding: 0 !important;
-  overflow: hidden; }
+  overflow: hidden;
+max-height: 750px;}
 
 #ocMenu {
   background-color: rgba(0, 0, 0, 0.8);
@@ -48,8 +52,6 @@ body {
   padding-top: 10vh; }
 
 #intro {
-  /*background:url("../images/boston.jpg"); */
-  /*background-size: cover; */
   width: 100vw;
   min-height: 100vh;
   color: white;
@@ -72,7 +74,7 @@ body {
   color: #000000;
   padding: 3vh;
   width: 90vw;
-  background-color: rgba(255, 255, 255, 0.4); }
+  background-color: rgba(255, 255, 255, 0.77); }
 
 #intro-img {
   box-sizing: border-box;
@@ -81,32 +83,23 @@ body {
   margin-bottom: 1vh; }
 
 #about-me {
-  position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
   font-size: 1em;
   color: white;
-  -webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -ms-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  transform: skewY(-2deg);
   padding: 3vmin;
   overflow: hidden;
   width: 100vw !important;
   bottom: 0;
   left: 0; }
 
-#about-me p {
-  text-align: center; }
 
 #intro #role {
-  color: #ffffff;
-  background-color: rgba(24, 240, 100, 0.8);
-  padding: 0.5vw; }
+  color: black;
+  font-weight: bolder;
+  padding: 0.5vw;
+  font-family: Raleway;
+  background-color: cornflowerblue}
 
-#about-me * {
-  transform: skewY(2deg);
-  -webkit-transform: skewY(2deg); }
 
 #projects {
   padding-top: 5.5em;
@@ -164,6 +157,28 @@ body {
     transition: color 0.4s ease-in-out; }
   .my-links a:hover {
     color: #D0D0D0; }
+  .resume-style {
+    text-align:center;
+    color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: 30;
+  }
+@keyframes example {
+  0%   {color:red;}
+  20%  {color:darkorange;}
+  40%  {color:yellow;}
+  60%  {color:greenyellow;}
+  80% {color:lightblue;}
+  100% {color:red;}
+}
+
+.resume-styles{
+  color: #fefefe;
+  text-align: center;
+}
 
 #resume {
   background-color: rgba(0, 0, 0, 0.9);
@@ -171,17 +186,17 @@ body {
   min-height: 5rem;
   width: 100vw;
   padding: 1rem;
-  transition: background-color 0.5s ease-in; }
+  }
 
 #resume a {
   color: #878792;
-  transition: color 0.5s linear; }
+  transition: color 0.5s linear;
+  text-decoration: none}
 
 #resume-text {
   font-family: "Helvetica Neue", "Raleway", san-serif !important; }
 
 #resume:hover {
-  background-color: rgba(255, 255, 255, 0.7);
   color: #878792;
   transition: background-color 0.5s ease-in; }
 

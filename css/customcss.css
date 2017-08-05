@@ -1,0 +1,156 @@
+/*PROJECT PAGE*/
+
+.sections{
+    text-align: center;
+}
+.namings {
+    color: black !important;
+    font-weight: bold;
+}
+.project-page {
+    background: url("projects.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project {
+    width: 350px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    background-color: aqua;
+    margin-top:10px;
+}
+.project-row {
+    max-width: 75rem;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.project .project-back {
+    background-color:#F5F5F5;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0;
+    transition: opacity .5s;
+}
+
+.hidden-xs{
+    line-height: 0.6;
+}
+
+.project:hover .project-back {
+    opacity: 1;
+    transition: opacity .5s;
+}
+.project-back h3{
+    display: block;
+    text-align: center;
+    line-height: 50px!important;
+    position: relative;
+}
+.project-back p{
+    text-align: center;
+}
+
+.project-front h3, .project-front h5{
+    margin:0;
+    padding:5px;
+}
+
+/*PROJECT COLORS*/
+
+.wham-project{
+        background-color: #FFCC80;
+}
+
+.t2t-project{
+    background-color: #FFCC80;
+}
+
+
+.website{
+    background-color:#A5D6A7;
+}
+
+.brfss{
+    background-color:#A5D6A7;
+
+}
+
+.ocr{
+    background-color:#A5D6A7;
+
+}
+
+.block{
+    background-color:#A5D6A7;
+}
+
+.symphony{
+    background-color:#FFCC80;
+}
+
+.affective{
+    background-color: #FFCC80;
+}
+.js-skill{
+    background-color: yellow;
+    color: black;
+}
+
+.my-sql-skill{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+.mongo-skill{
+    background-color: green;
+}
+.python-skill {
+    background-color: royalblue;
+}
+.node-skill{
+    background-color: limegreen;
+}
+.java-skill{
+    background-color: crimson;
+}
+.ang-skill {
+    background-color: red;
+    color: white;
+}
+.css-skill {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/*SMALL SCREEN*/
+/*project page*/
+.projects{
+    text-align: center;
+}
+
+.project-front h3, .project-front h5, .project-back h3, .project-back p{
+    color: #000000;
+}
+
+.project {
+    width: 220px !important;
+    height: 75px !important;
+    text-align: center !important;
+}
+
+.project h3{
+    font-size: 14px !important;
+}
