@@ -64,9 +64,10 @@ max-height: 750px;}
 
 #history {
   /*top: -2em; */
-  background-color: #222222;
   color: #ffffff;
-  padding: 5vmin; }
+  padding: 5vmin;
+  background-image: url("../images/projects.jpg") !important;
+}
 
 #intro-text {
   margin: 5vh auto 25vh auto;
@@ -252,6 +253,41 @@ footer {
 
 @media (min-width: 640px) {
   #intro {
-    margin-top: 0 !important; } }
+    margin-top: 0 !important; }
+#history {
+  background-image: url("../images/projects.jpg") !important;
+  background-size: contain;
+
+}}
 
 /*# sourceMappingURL=style.css.map */
+* {
+  margin: 0; padding: 0;
+}
+
+#containers {
+  overflow: hidden;
+  background: #edeae8;
+  position: relative;
+}
+
+video {
+  position: absolute;
+
+  /* Horizontally center*/
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Could do vertial centering too, depending upon your requirements:
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  But in practise I noticed just `top: 0;` fulfills our expectations pretty well (obviously will vary from video to video)
+  */
+  top: 0;
+}
+
+#overlay {
+
+  background: rgba(255 ,255,255,0.5);
+}

@@ -3,6 +3,7 @@
 .sections{
     text-align: center;
 }
+
 .namings {
     color: black !important;
     font-weight: bold;
@@ -153,4 +154,11 @@
 
 .project h3{
     font-size: 14px !important;
+}
+
+.course-link{
+    font-weight: bolder;
+    font-family: raleway;
+    font-size: x-large;
+
 }
