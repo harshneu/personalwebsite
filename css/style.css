@@ -291,3 +291,23 @@ video {
 
   background: rgba(255 ,255,255,0.5);
 }
+
+.email-icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  max-width: 100%;
+  font-size: 55px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto 10px;
+}
+
+.angle{
+  font-size: 50px;
+  text-decoration: none;
+}
+.angle:hover{
+  color: #843534; !important;
+}

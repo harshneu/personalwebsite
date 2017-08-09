@@ -6,12 +6,12 @@
     var roller = theaterJS();
 
     roller
-        .addActor('role', {speed: 1.0, accuracy: 0.9})
-        .addScene('role: Web Development')
-        .addScene('role: Software Development')
-        .addScene('role:Data Analytics')
-        .addScene('role:Data Visualization')
-        .addScene('role:Artificial Intelligence')
+        .addActor('role', {speed: 0.5, accuracy: 1.0})
+        .addScene('role: Web Development   ')
+        .addScene('role: Software Development   ')
+        .addScene('role:Data Analytics   ')
+        .addScene('role:Data Visualization   ')
+        .addScene('role:Artificial Intelligence   ')
         .addScene('role:Big Data')
         .addScene(roller.replay.bind(roller));
     window.sr = ScrollReveal({reset: true});

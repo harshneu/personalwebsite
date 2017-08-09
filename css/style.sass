@@ -273,5 +273,63 @@ footer
   background-color: #CCC
 
 @media (min-width: 640px)
-  #intro
-    margin-top: 0 !important
+  #intro {
+    margin-top: 0 !important}
+    @media screen and (max-width: 580px) {
+    .intro-content {
+      padding: 45% 0 5% 0;
+  }
+    a.fa.fa-angle-down {
+      margin-top: 80px !important;
+  }
+}
+
+a.fa.fa-angle-down {
+  padding: 10px 14px;
+  color: #aaa;
+  font-size: 50px;
+  margin-top: 175px;
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 1600px) {
+a.fa.fa-angle-down {
+  position: relative;
+  bottom: 50px;
+}
+}
+
+a.fa.fa-angle-down:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.fa.fa-angle-down:focus {
+  text-decoration: none;
+}
+
+.bounceIn,
+.bounceInLeft,
+.bounceInRight,
+.bounceInDown,
+.fadeIn,
+.fadeInUp,
+.fadeInUpDelay,
+.fadeInDown,
+.fadeInLeft,
+.fadeInRight,
+.slideInUp,
+.slideInDown,
+.slideInLeft,
+.slideInRight,
+.zoomIn,
+.swing,
+.pulse,
+.bounce,
+.progress1-delay,
+.progress2-delay,
+.progress3-delay,
+.progress4-delay,
+.progress5-delay {
+  visibility: visible;
+}
