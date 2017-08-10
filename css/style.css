@@ -93,6 +93,9 @@ max-height: 750px;}
   bottom: 0;
   left: 0; }
 
+.courses-row p{
+    margin: -8px 0 10px !important;
+}
 
 #intro #role {
   color: black;
@@ -311,3 +314,8 @@ video {
 .angle:hover{
   color: #843534; !important;
 }
+
+.project-back h3{
+  margin-bottom: -10px;
+  margin-top: -2px;}
+
